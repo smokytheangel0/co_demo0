@@ -5,7 +5,10 @@
 | line
 v comments
 */
-
+//Edit (/* */) the slash and astricks are used for multi-line comments. 
+//Yes we could just use the (//) on multiple lines but that is lame. 
+//That's for NOOBS, and we are not noobs. We are wiggles! But yes you will see both being use. 🐙
+//-Justice K.
 
 //this is where we ask the libraries
 //for their books ;)
@@ -26,6 +29,7 @@ import "./store.dart" as store;
 import "./pageNOT.dart" as not;
 
 /*
+TODO
 questions that must be answered as input to an 
 automated folder creation tool how many views does
 the server app have (can be none)
@@ -49,7 +53,7 @@ those using the video game style opengl views :3
 //0
 
 //these are the helpers for
-//the documentation at the top
+//the documentation below
 //of the main() function
 
 //vvvv <-- this is the type of inBOX0
@@ -57,12 +61,17 @@ String inBOX0 = "we can add some";
 
 //vvvv <-- this is the function's output type
 String yellow_out(inBOX0){
-  String wordBOX0 = " more words";
-  inBOX0 = inBOX0 + wordBOX0;
-  return inBOX0;
+  inBOX0 += " more words";
+  outBOX0 = inBOX0
+  return outBOX0;
+}
+
+void yellow(){
+
 }
 
 class Green{
+  //makes a new green nothing
   Green();
 }
 
@@ -72,23 +81,20 @@ classes are basically prescriptions of object attributes
 importantly when viewed in this context, individual classes
 may contain usage of other classes' attributes
 
-classes are Green */Green green = new Green();/*
+classes are Green */Green colorBOX0 = new Green();/*
 
 you usually take a copy of a specific class
 and put it into a box to be used locally only
-the box usually only fit a specific class of contents
+the box usually only fits a specific class of contents
 
-boxes are white */String white = "this box is called white";
+boxes are white */String wordBOX0 = "this box is called word";
 /* and are usually typed with a class
 
 functions are class attributes also called methods
 they prescribe several algorithms that allow the class
 to express its usage, its workflow recipes if you will
 
-these dont have yellow under them when they are used
-in the program itself, they just arent defined correctly above
-
-functions are yellow */yellow(){}/*
+functions are yellow */yellow()/*
 
 they take inputs at the suspiciously hole shaped thing
 where the user of the function puts boxes holding
@@ -280,6 +286,15 @@ with SingleTickerProviderStateMixin {
 }
 
 //this class (also called object or widget)
+
+//just going to butt in here, but its not the 
+//widget that you might have heard on android.
+// this widget is the visual apsect of flutter, 
+//and my most favourite part.
+//This will be where you add and change the style,
+//font, and animations for the whole flutter UI.
+//-Justice K.
+
 //defines the transparent card elements 
 //with text on them
 //that are used in the app drawer 
@@ -306,7 +321,7 @@ class DrawerInk extends StatelessWidget{
   //is defined using pieces from
   //the app context (a collection
   //of information about the parts
-  //of the app)
+  //of the app) --------------vvvvvvv this is the context box
   void onPressed(BuildContext context){
     Navigator.of(context).pushNamed(this.route);
   }
