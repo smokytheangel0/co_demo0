@@ -62,12 +62,8 @@ String inBOX0 = "we can add some";
 //vvvv <-- this is the function's output type
 String yellow_out(inBOX0){
   inBOX0 += " more words";
-  outBOX0 = inBOX0
+  outBOX0 = inBOX0;
   return outBOX0;
-}
-
-void yellow(){
-
 }
 
 class Green{
@@ -94,9 +90,9 @@ functions are class attributes also called methods
 they prescribe several algorithms that allow the class
 to express its usage, its workflow recipes if you will
 
-functions are yellow */yellow()/*
+functions are yellow */yellow(){}/*
 
-they take inputs at the suspiciously hole shaped thing
+they take inputs at the suspiciously round hole shaped thing
 where the user of the function puts boxes holding
 ingredients
 
@@ -278,8 +274,7 @@ with SingleTickerProviderStateMixin {
               new you.YouView()
             ],
           )
-        )
-        
+        )        
       )
     );
   }
@@ -344,7 +339,6 @@ class DrawerInk extends StatelessWidget{
       ]),
     onPressed: (){onPressed(context);}
     );
-
   }
 }
 
@@ -390,8 +384,7 @@ class CustomDrawer extends StatelessWidget{
               "/NotView"
             )
           ]
-        ),
-        
+        ),        
       )
     );
   }
@@ -438,7 +431,6 @@ class ViewInk extends StatelessWidget{
       mainAxisSize: MainAxisSize.min),
 
     );
-
   }
 }
 
@@ -485,8 +477,7 @@ class ViewCard extends StatelessWidget{
           
           ),
         )
-      )
-      
+      )      
     );
   }
 }
